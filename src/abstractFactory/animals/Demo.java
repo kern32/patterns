@@ -25,5 +25,4 @@ public class Demo {
 		System.out.println("a4 sound: " + a4.makeSound());
 
 	}
-
 }
