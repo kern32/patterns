@@ -16,5 +16,4 @@ public class AbstractFactory {
 			return new ReptileFactory();
 		}
 	}
-
 }
