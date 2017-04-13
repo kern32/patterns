@@ -23,6 +23,5 @@ public class Demo {
 		System.out.println("a3 sound: " + a3.makeSound());
 		Animal a4 = speciesFactory2.getAnimal("cat");
 		System.out.println("a4 sound: " + a4.makeSound());
-
 	}
 }
