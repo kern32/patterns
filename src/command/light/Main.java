@@ -2,7 +2,7 @@ package command.light;
 
 public class Main {
 	public static void main(String[] args){
-	      //sender
+	      //receiver
 	      TV tv = new TV();
 	      Light light = new Light();
 	      
@@ -10,7 +10,7 @@ public class Main {
 	      Command lightOf = new LightOffCommand(light);
 	      Command tvOn = new TvOnCommand(tv);
 	      
-	      //receiver	
+	      //sender	
 	      Switch s = new Switch(tvOn, lightOf);
 	      s.off();
 	      s.on();
